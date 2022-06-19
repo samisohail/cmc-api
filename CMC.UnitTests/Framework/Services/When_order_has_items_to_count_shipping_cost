@@ -1,15 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using CMC.Services;
 using CMC.Services.Interface;
+using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;
 
 namespace CMC.UnitTests.Framework.Services
 {
-    public class When_order_greater_than_50
+    public class When_order_has_items_to_count_shipping_cost
     {
+        private readonly IConfiguration _configuration;
+
+        public When_order_has_items_to_count_shipping_cost()
+        {
+            _configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("Configuration/appsettings.json", false, false)
+                .Build();
+        }
         [Theory]
         [InlineData(50.01)]
         [InlineData(80)]
@@ -19,7 +30,7 @@ namespace CMC.UnitTests.Framework.Services
         {
             // arrange
             var currencyServiceMock = new Mock<ICurrencyService>();
-            IShippingService shippingService = new ShippingService(currencyServiceMock.Object);
+            IShippingService shippingService = new ShippingService(currencyServiceMock.Object, _configuration);
 
             // act
             var result = shippingService.GetShippingCost(orderTotal);
@@ -34,7 +45,7 @@ namespace CMC.UnitTests.Framework.Services
         {
             // arrange
             var currencyServiceMock = new Mock<ICurrencyService>();
-            IShippingService shippingService = new ShippingService(currencyServiceMock.Object);
+            IShippingService shippingService = new ShippingService(currencyServiceMock.Object, _configuration);
 
             // act
             var result = shippingService.GetShippingCost(orderTotal);

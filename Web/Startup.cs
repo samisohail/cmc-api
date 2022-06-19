@@ -55,7 +55,7 @@ namespace Web
             services.AddAutoMapper(typeof(ReadStackAutoMapper).Assembly,
                 typeof(RepositoryAutoMapper).Assembly);
 
-            // Register MediatR
+            // register MediatR
             services.RegisterRequestHandlers();
         }
 

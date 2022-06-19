@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using System.Text;
 using CMC.Models;
 using CMC.Services.Interface;
+using Microsoft.Extensions.Configuration;
 
 namespace CMC.Services
 {
     public class ShippingService : IShippingService
     {
-        private const string _baseCurrency = "AUD";
+        private readonly string _baseCurrency;
 
         private readonly ICurrencyService _conversionService;
-        public ShippingService(ICurrencyService conversionService)
+        public ShippingService(ICurrencyService conversionService, IConfiguration configuration)
         {
             _conversionService = conversionService;
+            _baseCurrency = configuration.GetSection("BaseCurrency").Value;
         }
         public double GetShippingCost(double orderTotal) => orderTotal <= 50 ? 10 : 20;
 

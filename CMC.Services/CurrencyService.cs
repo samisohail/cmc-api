@@ -11,28 +11,17 @@ namespace CMC.Services
 {
     public class CurrencyService : ICurrencyService
     {
-        private readonly IEnumerable<Currency> _currencies = default;
-        private readonly ICurrencyRepository _currencyRepo;
+        private readonly IEnumerable<Currency> _currencies;
         private readonly string _baseCurrency;
         public CurrencyService(ICurrencyRepository currencyRepo, IConfiguration configuration)
         {
-            _currencyRepo = currencyRepo;
             _baseCurrency = configuration.GetSection("BaseCurrency").Value;
-            _currencies = _currencyRepo.GetCurrencies().Value;
+            _currencies = currencyRepo.GetCurrencies().Value;
         }
         public Result<double> DoConversion(string fromCurrency, string toCurrency, double amount)
         {
             if (string.Equals(fromCurrency, toCurrency, StringComparison.OrdinalIgnoreCase))
                 return Result.OK(amount);
-
-
-            //var validateFromCurrency = IsValidCurrency(fromCurrency);
-            //if (!validateFromCurrency.Value)
-            //    return Result.Fail<double>(ErrorMessages.InvalidCurrency);
-
-            //var validateToCurrency = IsValidCurrency(toCurrency);
-            //if (!validateToCurrency.Value)
-            //    return Result.Fail<double>(ErrorMessages.InvalidCurrency);
 
 
             // base currency (aud) to some other currency conversion
@@ -51,12 +40,6 @@ namespace CMC.Services
             {
                 ratio = toCurrencyRatio;
             }
-
-            //// other current to base currency (aud) conversion 
-            //if (!string.Equals(_baseCurrency, fromCurrency, StringComparison.OrdinalIgnoreCase))
-            //{
-            //    ratio = 1 / ratio;
-            //}
 
             var conversionAmount = amount * ratio;
             return Result.OK(Math.Round(conversionAmount, 2, MidpointRounding.AwayFromZero));

@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <None Remove="appsettings.json" />
+    <None Remove="Framework\Services\When_order_has_items_to_count_shipping_cost" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Framework\Services\When_order_has_items_to_count_shipping_cost" />
   </ItemGroup>
 
   <ItemGroup>
