@@ -1,0 +1,14 @@
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Repositories.deps.json
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Repositories.dll
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Repositories.pdb
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Models.dll
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Models.pdb
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.csprojAssemblyReference.cache
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.AssemblyInfoInputs.cache
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.AssemblyInfo.cs
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.csproj.CopyComplete
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.dll
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.pdb
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Domain.dll
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\bin\Debug\netcoreapp3.1\CMC.Domain.pdb
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Repositories\obj\Debug\netcoreapp3.1\CMC.Repositories.csproj.CoreCompileInputs.cache

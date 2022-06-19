@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "9e5R5KYJhIEIQwERo6KeLvUkp0wrT0rEHJh2W72GXCSSkraZa5gY86I3QeZwCZxRh7YJA/wIalEPXXFS32s0PA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\sami.sohail\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
