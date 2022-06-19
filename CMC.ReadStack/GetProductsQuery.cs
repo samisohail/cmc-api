@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using AutoMapper;
 using CMC.Models;
-using CMC.Repositories.Interfaces;
+using CMC.Models.DTO;
 using CMC.Services.Interface;
 using MediatR;
 
@@ -9,6 +9,7 @@ namespace CMC.ReadStack
 {
     public sealed class GetProductsQuery : IRequest<Result<List<ProductDto>>>
     {
+        public string Currency { get; set; }
         public sealed class Handler : ReadStackBaseHandler<GetProductsQuery, Result<List<ProductDto>>>
         {
             private readonly IProductService _productService;
@@ -19,21 +20,13 @@ namespace CMC.ReadStack
             }
             protected override Result<List<ProductDto>> Handle(GetProductsQuery request)
             {
-                var productsResult = _productService.GetAll();
-                if (!productsResult.Success)
-                    return Result.Fail<List<ProductDto>>(productsResult.Error);
+                var dbProducts = _productService.GetProductsPriceInGivenCurrency(request.Currency);
+                if (!dbProducts.Success)
+                    return Result.Fail<List<ProductDto>>(ErrorMessages.NoProductFound);
 
-                var productsDto =  _mapper.Map<List<ProductDto>>(productsResult.Value);
+                var productsDto =  _mapper.Map<List<ProductDto>>(dbProducts.Value);
                 return Result.OK(productsDto);
             }
         }
-    }
-
-    public class ProductDto
-    {
-        public int ProductId { get; set; }
-        public string Name { get; set; }
-        public double UnitPrice { get; set; }
-        public string Currency { get; set; }
     }
 }

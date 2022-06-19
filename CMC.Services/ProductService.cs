@@ -5,7 +5,6 @@ using CMC.Models;
 using CMC.Models.Order;
 using CMC.Repositories.Interfaces;
 using CMC.Services.Interface;
-using Microsoft.Extensions.Configuration;
 
 namespace CMC.Services
 {

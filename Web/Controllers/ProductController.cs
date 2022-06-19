@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using CMC.ReadStack;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Web.Helpers;
 
@@ -21,14 +17,9 @@ namespace Web.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet("products")]
-        public async Task<IActionResult> GetProducts() =>
-            (await _mediator.Send(new GetProductsQuery()))
-                .BuildResponse();
-
         [HttpGet("products/{currency}")]
         public async Task<IActionResult> GetProductsByCurrency(string currency) =>
-            (await _mediator.Send(new GetProductsPriceByGivenCurrencyQuery{Currency = currency}))
+            (await _mediator.Send(new GetProductsQuery{Currency = currency}))
             .BuildResponse();
 
     }

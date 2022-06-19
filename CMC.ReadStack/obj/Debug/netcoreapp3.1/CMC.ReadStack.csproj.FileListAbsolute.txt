@@ -1,8 +1,12 @@
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.ReadStack.deps.json
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.ReadStack.dll
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.ReadStack.pdb
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Domain.dll
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Models.dll
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Repositories.dll
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Services.dll
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Services.pdb
+C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Domain.pdb
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Models.pdb
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Repositories.pdb
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\obj\Debug\netcoreapp3.1\CMC.ReadStack.csprojAssemblyReference.cache
@@ -12,7 +16,3 @@ C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\obj\Debug\netco
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\obj\Debug\netcoreapp3.1\CMC.ReadStack.csproj.CopyComplete
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\obj\Debug\netcoreapp3.1\CMC.ReadStack.dll
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\obj\Debug\netcoreapp3.1\CMC.ReadStack.pdb
-C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Domain.dll
-C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Domain.pdb
-C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Services.dll
-C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.ReadStack\bin\Debug\netcoreapp3.1\CMC.Services.pdb

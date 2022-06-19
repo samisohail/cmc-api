@@ -1,14 +1,11 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Configuration;
 
 namespace CMC.Commands
 {
     public abstract class CommandBaseController<TCommand, TResult> : RequestHandler<TCommand, TResult> where TCommand : IRequest<TResult>
     {
-        // protected readonly string _baseCurrency;
-        protected CommandBaseController()
-        {
-            // _baseCurrency = configuration.GetSection("BaseCurrency").Value;
-        }
+        protected CommandBaseController() { }
 
         public TResult UnitTestHandle(TCommand request)
         {

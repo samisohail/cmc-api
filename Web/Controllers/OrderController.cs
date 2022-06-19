@@ -19,15 +19,14 @@ namespace Web.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost("cost")]
-        public async Task<IActionResult> CalculateCost(IEnumerable<CartItemDto> cartItems) =>
-            (await _mediator.Send(new CalculateOrderCostCommand {CartItems = cartItems}))
-            .BuildResponse();
-        
         [HttpPost]
         public async Task<IActionResult> NewOrder(CreateOrderRequest orderCheckoutRequest) =>
             (await _mediator.Send(new CreateOrderCommand {OrderCheckoutRequest = orderCheckoutRequest}))
             .BuildResponse();
 
+        [HttpPost("cost")]
+        public async Task<IActionResult> CalculateCost(IEnumerable<CartItemDto> cartItems) =>
+            (await _mediator.Send(new CalculateOrderCostCommand { CartItems = cartItems }))
+            .BuildResponse();
     }
 }
