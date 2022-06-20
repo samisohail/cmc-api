@@ -7,9 +7,6 @@ using CMC.Models.Order;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 
-/// <summary>
-/// This command is created with intention for user to PREVIEW cart-items total cost.
-/// </summary>
 namespace CMC.Commands.Order
 {
     public sealed class CalculateOrderCostCommand : IRequest<Result<OrderCostResponse>>

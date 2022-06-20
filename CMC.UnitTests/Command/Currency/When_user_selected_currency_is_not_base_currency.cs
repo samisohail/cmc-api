@@ -54,7 +54,7 @@ namespace CMC.UnitTests.Command.Currency
             // assert
             Assert.Equal(142.86, result.Value);
         }
-
+            
         [Fact]
         public void It_should_return_correct_conversion_aud_to_usd()
         {
