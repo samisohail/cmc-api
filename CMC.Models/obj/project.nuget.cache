@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h44Ubo74oo/5rzHHAhlLD1WM0OPHjHi09riTdDetHjTShEhPmfC68GhJWtz4iaNBXJP4NnlHdRpNEGcwGD9kxQ==",
+  "dgSpecHash": "WU40iAxrVCHziX7YYKIVeVxzmpzF2PBTmwA22I7yWrT+y01reCQmL2OACL8FD6dULhkUUVbPgbzrZ+icXDlkOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj",
+  "projectFilePath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

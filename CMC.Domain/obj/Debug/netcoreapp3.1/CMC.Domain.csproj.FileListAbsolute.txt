@@ -10,3 +10,15 @@ C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Domain\obj\Debug\netcorea
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.csproj.CopyComplete
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.dll
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.pdb
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\bin\Debug\netcoreapp3.1\CMC.Domain.deps.json
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\bin\Debug\netcoreapp3.1\CMC.Domain.dll
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\bin\Debug\netcoreapp3.1\CMC.Domain.pdb
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\bin\Debug\netcoreapp3.1\CMC.Models.dll
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\bin\Debug\netcoreapp3.1\CMC.Models.pdb
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.csprojAssemblyReference.cache
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.AssemblyInfoInputs.cache
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.AssemblyInfo.cs
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.csproj.CopyComplete
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.dll
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Domain\obj\Debug\netcoreapp3.1\CMC.Domain.pdb

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 
 namespace Web
 {
@@ -41,6 +42,11 @@ namespace Web
                     });
             });
 
+
+            // https://github.com/serilog/serilog-extensions-logging
+            services.AddLogging(loggingBuilder =>
+                loggingBuilder.AddSerilog(dispose: true));
+
             services.AddControllers();
 
             services.AddScoped<ICurrencyRepository, CurrencyRepository>();
@@ -57,6 +63,7 @@ namespace Web
 
             // register MediatR
             services.RegisterRequestHandlers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,3 +7,12 @@ C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Models\obj\Debug\netcorea
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.csproj.CoreCompileInputs.cache
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.dll
 C:\Users\sami.sohail\work\learning\CMC\CMCSolution\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.pdb
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\bin\Debug\netcoreapp3.1\CMC.Models.deps.json
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\bin\Debug\netcoreapp3.1\CMC.Models.dll
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\bin\Debug\netcoreapp3.1\CMC.Models.pdb
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.csprojAssemblyReference.cache
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.AssemblyInfoInputs.cache
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.AssemblyInfo.cs
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.csproj.CoreCompileInputs.cache
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.dll
+C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.pdb

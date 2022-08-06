@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "deRVyHbSo9kJnTPVK5vwFAa/kDlaclf+cIN+FooErfQHTJIePqdHUSdZgm38gi4xDMpsIIPGKEa1rVVHAUuizw==",
+  "dgSpecHash": "w7jCenFSHax5BQuTCl/rJ2lPIT5/yUlCDIWHi6o37aJLcg5GTZzQ9DG7TYN6pyGLaGkrzLG01eh2bjNWbkoiXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\CMC.Services.csproj",
+  "projectFilePath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sami.sohail\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\sami.sohail\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

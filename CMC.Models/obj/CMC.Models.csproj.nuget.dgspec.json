@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {}
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj",
+        "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj",
         "projectName": "CMC.Models",
-        "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj",
+        "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj",
         "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\obj\\",
+        "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

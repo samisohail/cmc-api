@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Commands\\CMC.Commands.csproj": {}
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\CMC.Commands.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Commands\\CMC.Commands.csproj": {
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\CMC.Commands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Commands\\CMC.Commands.csproj",
+        "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\CMC.Commands.csproj",
         "projectName": "CMC.Commands",
-        "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Commands\\CMC.Commands.csproj",
+        "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\CMC.Commands.csproj",
         "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Commands\\obj\\",
+        "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,14 +31,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj"
               },
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj"
               },
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\CMC.Services.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\CMC.Services.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj"
               }
             }
           }
@@ -59,6 +59,26 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
             }
           },
           "imports": [
@@ -72,6 +92,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -80,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Domain\\CMC.Domain.csproj": {
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Domain\\CMC.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj",
         "projectName": "CMC.Domain",
-        "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Domain\\CMC.Domain.csproj",
+        "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj",
         "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Domain\\obj\\",
+        "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -107,8 +130,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj"
               }
             }
           }
@@ -140,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj",
+        "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj",
         "projectName": "CMC.Models",
-        "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj",
+        "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj",
         "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\obj\\",
+        "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -196,14 +219,14 @@
         }
       }
     },
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj": {
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj",
         "projectName": "CMC.Repositories",
-        "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj",
+        "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj",
         "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -223,11 +246,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Domain\\CMC.Domain.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Domain\\CMC.Domain.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj"
               },
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj"
               }
             }
           }
@@ -269,14 +292,14 @@
         }
       }
     },
-    "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\CMC.Services.csproj": {
+    "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\CMC.Services.csproj",
+        "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj",
         "projectName": "CMC.Services",
-        "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\CMC.Services.csproj",
+        "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj",
         "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Services\\obj\\",
+        "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -296,11 +319,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Models\\CMC.Models.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj"
               },
-              "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj": {
-                "projectPath": "C:\\Users\\sami.sohail\\work\\learning\\CMC\\CMCSolution\\CMC.Repositories\\CMC.Repositories.csproj"
+              "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj": {
+                "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Repositories\\CMC.Repositories.csproj"
               }
             }
           }
