@@ -2253,10 +2253,7 @@
         },
         "runtime": {
           "bin/placeholder/CMC.Commands.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "CMC.Domain/1.0.0": {
         "type": "project",
@@ -7568,23 +7565,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sami.sohail\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\samis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.UnitTests\\CMC.UnitTests.csproj",
+      "projectUniqueName": "E:\\Sami\\code\\cmc-api\\CMC.UnitTests\\CMC.UnitTests.csproj",
       "projectName": "CMC.UnitTests",
-      "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.UnitTests\\CMC.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.UnitTests\\obj\\",
+      "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.UnitTests\\CMC.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\samis\\.nuget\\packages\\",
+      "outputPath": "E:\\Sami\\code\\cmc-api\\CMC.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sami.sohail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7592,23 +7585,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\CMC.Commands.csproj": {
-              "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Commands\\CMC.Commands.csproj"
+            "E:\\Sami\\code\\cmc-api\\CMC.Commands\\CMC.Commands.csproj": {
+              "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.Commands\\CMC.Commands.csproj"
             },
-            "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj": {
-              "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Domain\\CMC.Domain.csproj"
+            "E:\\Sami\\code\\cmc-api\\CMC.Domain\\CMC.Domain.csproj": {
+              "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.Domain\\CMC.Domain.csproj"
             },
-            "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
-              "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj"
+            "E:\\Sami\\code\\cmc-api\\CMC.Models\\CMC.Models.csproj": {
+              "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.Models\\CMC.Models.csproj"
             },
-            "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj": {
-              "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj"
+            "E:\\Sami\\code\\cmc-api\\CMC.Services\\CMC.Services.csproj": {
+              "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.Services\\CMC.Services.csproj"
             }
           }
         }
@@ -7621,6 +7614,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -7669,15 +7663,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
           },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

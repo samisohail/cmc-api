@@ -3,12 +3,14 @@ using CMC.Repositories;
 using CMC.Repositories.Interfaces;
 using CMC.Services;
 using CMC.Services.Interface;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
+using Web.Pipelines;
 
 namespace Web
 {
@@ -42,6 +44,9 @@ namespace Web
                     });
             });
 
+            // register MediatR
+            services.RegisterRequestHandlers();
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>));
 
             // https://github.com/serilog/serilog-extensions-logging
             services.AddLogging(loggingBuilder =>
@@ -60,10 +65,6 @@ namespace Web
 
             services.AddAutoMapper(typeof(ReadStackAutoMapper).Assembly,
                 typeof(RepositoryAutoMapper).Assembly);
-
-            // register MediatR
-            services.RegisterRequestHandlers();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

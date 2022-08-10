@@ -16,3 +16,13 @@ C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Mo
 C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.csproj.CoreCompileInputs.cache
 C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.dll
 C:\Users\sami.sohail\Downloads\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.pdb
+E:\Sami\code\cmc-api\CMC.Models\bin\Debug\netcoreapp3.1\CMC.Models.deps.json
+E:\Sami\code\cmc-api\CMC.Models\bin\Debug\netcoreapp3.1\CMC.Models.dll
+E:\Sami\code\cmc-api\CMC.Models\bin\Debug\netcoreapp3.1\CMC.Models.pdb
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.csproj.AssemblyReference.cache
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.AssemblyInfoInputs.cache
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.AssemblyInfo.cs
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.csproj.CoreCompileInputs.cache
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.dll
+E:\Sami\code\cmc-api\CMC.Models\obj\Debug\netcoreapp3.1\CMC.Models.pdb

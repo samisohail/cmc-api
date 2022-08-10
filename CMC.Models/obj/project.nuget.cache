@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WU40iAxrVCHziX7YYKIVeVxzmpzF2PBTmwA22I7yWrT+y01reCQmL2OACL8FD6dULhkUUVbPgbzrZ+icXDlkOw==",
+  "dgSpecHash": "33CEI+l2z7gXer4aZG16KpWXuErh+WK/v9RqL97raKAMHW25EsyUmz2yriatO3KVWlPu25mB9i8qPzJ+uPMJVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Models\\CMC.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Sami\\code\\cmc-api\\CMC.Models\\CMC.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\samis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\samis\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1166,23 +1166,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sami.sohail\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\samis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.ReadStack\\CMC.ReadStack.csproj",
+      "projectUniqueName": "E:\\Sami\\code\\cmc-api\\CMC.ReadStack\\CMC.ReadStack.csproj",
       "projectName": "CMC.ReadStack",
-      "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.ReadStack\\CMC.ReadStack.csproj",
-      "packagesPath": "C:\\Users\\sami.sohail\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.ReadStack\\obj\\",
+      "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.ReadStack\\CMC.ReadStack.csproj",
+      "packagesPath": "C:\\Users\\samis\\.nuget\\packages\\",
+      "outputPath": "E:\\Sami\\code\\cmc-api\\CMC.ReadStack\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sami.sohail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1190,14 +1186,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj": {
-              "projectPath": "C:\\Users\\sami.sohail\\Downloads\\cmc-api\\CMC.Services\\CMC.Services.csproj"
+            "E:\\Sami\\code\\cmc-api\\CMC.Services\\CMC.Services.csproj": {
+              "projectPath": "E:\\Sami\\code\\cmc-api\\CMC.Services\\CMC.Services.csproj"
             }
           }
         }
@@ -1210,6 +1206,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -1258,15 +1255,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
           },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
